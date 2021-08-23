@@ -10,7 +10,7 @@ spec:
   - name: myapp-container
     image: docker.io/busybox:latest
     command: ['sh', '-c', 'echo The app is running! && sleep 3600']
-    securityContext:
-        capabilities:
-          add:
-            - NET_RAW
+    #securityContext:
+    #    capabilities:
+    #      add:
+    #        - NET_RAW
