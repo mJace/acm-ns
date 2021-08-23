@@ -1,0 +1,4 @@
+iapiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  name: acm-ns-pod
